@@ -9,6 +9,7 @@ import Reports from "./paginas/reports/reports"
 import RutMap from "./paginas/rut_map/rut_map"
 import Users from "./paginas/users/users";
 import Crearuser from "./paginas/users/crearuser/crearuser";
+import Tablausers from "./paginas/users/tablauser/tablausers";
  
 
 function App() {
@@ -22,7 +23,8 @@ function App() {
               <Route path="users">
                 <Route index element={<Users/>}/>
                 <Route path=":userId" element={<SinglePage/>}/>
-                <Route path="crearusuario" element={<Crearuser/>}/>                
+                <Route path="crearusuario" element={<Crearuser/>}/> 
+                <Route path="listaUsuario" element={<Tablausers/>}/>               
               </Route> 
               <Route path="listhabilitados" index element={<Enabledlist/>}/>              
               <Route path="mapa" index element={<Map/>}/>

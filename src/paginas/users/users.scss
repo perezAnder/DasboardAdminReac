@@ -42,10 +42,8 @@
                         border-radius: 5px;
                         background: linear-gradient(90deg, #00b8d4, #16ebeb);
                         color: rgb(255, 255, 255); 
-                        
-                        &:hover{
-                            background-color: #ff000042;
-                        }
+                        cursor: pointer;                        
+                       
                         
                     }
             
@@ -136,8 +134,16 @@
                 box-shadow: 2px 5px 10px 2px #71c2bb;
                 margin: 20px;
                 border-radius: 10px;
-                height: 80px;               
-                align-items: center;
+                height: 100%;               
+                align-items: center;  
+
+
+
+                tr:nth-chil(odd){
+                    background-color: #71c2bb;
+                }            
         }
+
+       
     }
 }

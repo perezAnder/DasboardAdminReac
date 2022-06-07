@@ -47,8 +47,7 @@ const Users = () =>{
                 </div> 
                 <div className="tablaContainer">
                     <Tablausers/>
-                </div>
-                               
+                </div>                               
             </div>
            
         </div>

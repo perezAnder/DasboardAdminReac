@@ -3,5 +3,12 @@
     width: 100%;
     .mapContainer{
         flex: 5;
+
+        .contenedor{
+            background-color: blueviolet;
+            padding: 5px;
+            margin: 10px;
+            min-height: 100vh;
+        }
     }
 }
