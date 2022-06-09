@@ -13,8 +13,7 @@ const Sidebar = () => {
     <div className='sidebar'>
       <div className='top'>
         <Link to="/" style={{textDecoration: "none"}}>
-        <span className='logo'>TIQUEO</span>
-        <img className='logo1' src={require("../../imgs/logo1.png")} alt="img logo" />
+          <img className='logo1' src={require("../../imgs/logo1.png")} alt="img logo" />
         </Link>        
       </div>
       <hr />
